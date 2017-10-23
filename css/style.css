@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu-container {
+	position: relative;
+	margin: 0 auto;
+	background-color: #ced3dc;
+	border: 1px solid #4e8098;
+	width:167px;
+	height:167px;
+}
+
+.box1, .box2, .box3, .box4 {
+	position: absolute;
+	border: 1px solid #4e8098;
+	background-color: #90c2e7;
+	width: 75px;
+	height: 75px;
+	padding: 5px;
+}
+
+.box1 {
+	margin: 5px 0 0 5px;
+}
+
+.box2 {
+	margin: 85px 0 0 5px;
+}
+
+.box3 {
+	margin: 5px 0 0 85px;
+}
+
+.box4 {
+	margin: 85px 0 0 85px;
+}
+
+p {
+	color: white;
+	font: .8em Helvetica Light, sans-serif;
+}
